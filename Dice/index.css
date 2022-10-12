@@ -1,0 +1,86 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+  
+}
+body{
+    background-color: rgb(1, 4, 15);
+}
+
+#container{
+    width: 420px;
+    padding: 50px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px;
+    background-color: rgb(212, 218, 239);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#dice{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#winner{
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    border: 1px solid gren;
+    padding: 2px;
+    color: green;
+ 
+}
+#Second{
+    font-size: 18px;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 10px;
+    border: 1px solid gren;
+    padding: 2px;
+    color: rgb(255, 255, 4);
+ 
+}
+#loser{
+    font-size: 17px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
+    border: 1px solid rd;
+    padding: 2px;
+    color: red;
+ 
+}
+#draw{
+    font-size: 17px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
+    border: 1px solid rd;
+    padding: 2px;
+    color: blue;
+ 
+}
+
+button{
+    background-color: black;
+    color: red;
+    border: none;
+    padding: 15px 0;
+    width: 170px;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 17px;
+
+}
